@@ -1,0 +1,50 @@
+.movie-card {
+  width: 15rem;
+}
+.movie-card-text {
+  height: 10rem;
+}
+iframe {
+  min-width: 100%;
+  min-height: 60vh;
+}
+.bg-img {
+  background-image: url(./../../public/images/bgimg.jpg);
+  background-size: cover;
+}
+.for-height {
+  min-height: 100vh;
+}
+.rounded-circle {
+  border: 1px solid;
+}
+.object-fit-cover {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.img-container-crew {
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+.crew-img-main {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .for-mobile {
+    flex-direction: column;
+  }
+  .for-img-container {
+    display: flex;
+    justify-content: center;
+  }
+  .for-responsive {
+    margin-top: 1rem;
+  }
+  iframe {
+    min-width: 100%;
+    min-height: 100vh;
+  }
+}
